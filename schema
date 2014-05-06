@@ -1,0 +1,19 @@
+reddit_json = load '/pig_data/reddit_dataset' using JsonLoader('
+	approved_by:chararray,
+	author:chararray,
+	author_flair_css_class:chararray,
+	author_flair_text:chararray,
+	banned_by:chararray,
+	body:chararray,
+	body_html:chararray,
+	distinguished:chararray,
+	id:chararray,
+	link_id:chararray,
+	link_title:chararray,
+	parent_id:chararray,
+	replies:chararray,
+	subreddit:chararray,
+	subreddit_id:chararray
+');
+
+
